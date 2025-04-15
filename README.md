@@ -13,6 +13,7 @@ pnpm dev
 # or
 bun dev
 ```
+This project use ts, lint-staged, App-Router, locale, @tanstack/react-query, tailwind, zustand, @radix-ui / shad/cn
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
