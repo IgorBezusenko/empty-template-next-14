@@ -1,0 +1,9 @@
+{
+  "welcome": "Welcome to my home page",
+  "source": "Save {{1}} after {{2}}",
+  "btn": {
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "nothingFound": "Nothing Found"
+}

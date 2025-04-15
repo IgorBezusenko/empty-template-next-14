@@ -1,5 +1,3 @@
-import {i18n} from "next-i18next";
-
 /** @type {import('next').NextConfig} */
 const isDev = process.env.NODE_ENV === "development";
 
@@ -25,7 +23,7 @@ const nextConfig = {
     },
     //target directories below for eslint checking
     eslint: {
-        dirs: ["pages", "components", "lib"]
+        dirs: ["app", "components", "lib"]
     }, //remove console.log in production build
     compiler: {
         removeConsole: isDev
@@ -34,7 +32,6 @@ const nextConfig = {
                 exclude: ["error"]
             }
     },
-    i18n,
     output: "standalone",
     productionBrowserSourceMaps: false
 };
