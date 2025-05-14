@@ -1,10 +1,13 @@
-/** @type {import('next').NextConfig} */
 const isDev = process.env.NODE_ENV === "development";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     poweredByHeader: false,
     basePath: process.env.NEXT_BASE_PATH || "",
+    i18n: {
+        locales: ["ru", "en"],
+        defaultLocale: "ru"
+    },
     reactStrictMode: true,
     swcMinify: true,
     //allow domains below for image src
